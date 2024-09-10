@@ -1,5 +1,7 @@
 # Banco de dados para Gerenciamento de Materiais para Contrução de Moradias de Mergegência em Comunidades Carentes
 O banco de dados desenvolvido em SQLite visa facilitar o controle de entrada, saída e amarzenamento de materiais de contrução em locais de comunidades como pouco ou nenhum acesso a internet. O banco de dados utiliza a tecnologia do sqlite por ser um banco de dados portátil e de fácil acesso por hardwares mais fracos. 
+
+
 ![image](https://github.com/user-attachments/assets/8d82cbd4-f902-47cc-a485-ff77c0c202ac)
 
 # Usando SQLite CLI
