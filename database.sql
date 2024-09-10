@@ -4,13 +4,12 @@ CREATE TABLE Casa (
     modelo_casa INTEGER
 );
 
-CREATE TABLE Materiais (
-    id_material INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
-    nome TEXT,
-    quantidade INTEGER,
-    preco FLOAT,
-    id_casa INTEGER,
-    FOREIGN KEY (id_casa) REFERENCES Casa(id_casa)
+CREATE TABLE IF NOT EXISTS Casa (
+    id_casa INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+    fase_da_construcao TEXT,
+    modelo_casa INTEGER
+    id_material INTEGER
+    FOREIGN KEY (id_material) REFERENCES Materiais(id_material)
 );
 
 CREATE TABLE Familia (
