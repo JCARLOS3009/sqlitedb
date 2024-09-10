@@ -1,10 +1,5 @@
-CREATE TABLE Casa (
-    id_casa INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
-    fase_da_construcao TEXT,
-    modelo_casa INTEGER
-);
 
-CREATE TABLE IF NOT EXISTS Casa (
+CREATE TABLE  Casa (
     id_casa INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
     fase_da_construcao TEXT,
     modelo_casa INTEGER
