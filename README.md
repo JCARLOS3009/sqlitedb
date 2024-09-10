@@ -26,7 +26,7 @@ Substitua nome_do_banco_de_dados.db pelo nome desejado para o seu banco de dados
 Execute o comando abaixo para criar um novo banco de dados no WINDOWS (o arquivo será criado no diretório atual):
 
 ```bash
-sqlite3 nome_do_banco_de_dados.db
-python3 database.py
+sqlite nome_do_banco_de_dados.db
+python database.py
 ```
 Substitua nome_do_banco_de_dados.db pelo nome desejado para o seu banco de dados.
