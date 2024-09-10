@@ -4,7 +4,7 @@ O banco de dados desenvolvido em SQLite visa facilitar o controle de entrada, sa
 
 ![image](https://github.com/user-attachments/assets/8d82cbd4-f902-47cc-a485-ff77c0c202ac)
 
-# Usando SQLite CLI
+# Instruções de uso com o SQLite CLI
 ## Instale o SQLite:
 
 Se ainda não tiver o SQLite instalado, você pode baixá-lo e instalá-lo a partir do site oficial do SQLite.
