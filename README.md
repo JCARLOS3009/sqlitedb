@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/8d82cbd4-f902-47cc-a485-ff77c0c202ac)
+
 # Usando SQLite CLI
 ## Instale o SQLite:
 
